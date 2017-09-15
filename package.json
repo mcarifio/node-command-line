@@ -1,0 +1,42 @@
+{
+  "name": "node-command-line",
+  "version": "0.0.0",
+  "description": "command line example",
+  "homepage": "",
+  "author": {
+    "name": "Mike Carifio",
+    "email": "mike@carif.io",
+    "url": "http://mike.carif.io/"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^21.0.0",
+    "jest-cli": "^21.0.0"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "mcarifio/node-command-line",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "Apache-2.0"
+}

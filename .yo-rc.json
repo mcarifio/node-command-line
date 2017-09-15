@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Mike Carifio",
+      "authorEmail": "mike@carif.io",
+      "authorUrl": "http://mike.carif.io/"
+    }
+  }
+}
